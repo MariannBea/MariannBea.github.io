@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Making Money From Movies - Step 2
 date: 2021-09-06 13:32:20 +0300
-description: Exploratory Data Analysis. # Add post description (optional)
-img: Genres.png # Add image post (optional)
-fig-caption: # Add figcaption (optional)
-tags: [Python, EDA]
-categories: [Machine Learning]
+tags: 
+- Python
+- EDA
+categories: 
+- Machine Learning
 ---
 
 #### Making Money From Movies - Step 2: Exploratory Data Analysis
