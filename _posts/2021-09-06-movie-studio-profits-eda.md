@@ -1,11 +1,13 @@
 ---
 title: Making Money From Movies - Step 2
 date: 2021-09-06 13:32:20 +0300
-tags: 
-- Python
-- EDA
-categories: 
-- Machine Learning
+excerpt_separator: "<!--more-->"
+categories:
+  - Machine Learning
+tags:
+  - Python
+  - Data Cleaning
+  - standard
 ---
 
 #### Making Money From Movies - Step 2: Exploratory Data Analysis
