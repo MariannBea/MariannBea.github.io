@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Making Money From Movies - Step 3, Part 1
-date: 2021-09-06 13:32:20 +0300
-description: Exploratory Data Analysis. # Add post description (optional)
-img: Genres.png # Add image post (optional)
-fig-caption: # Add figcaption (optional)
-tags: [Python, Linear Regression]
-categories: [Machine Learning]
+date: 2021-09-08 13:32:20 +0300
+excerpt_separator: "<!--more-->"
+categories:
+  - Machine Learning
+tags:
+  - Python
+  - Linear Regression
+  - standard
 ---
 
 #### Making Money From Movies - Step 3: Machine Learning Models
