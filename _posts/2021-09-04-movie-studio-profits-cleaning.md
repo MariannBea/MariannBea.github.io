@@ -1,6 +1,5 @@
 ---
 title: Making Money From Movies - Step 1
-description: Cleaning and Organizing Data # Add post description (optional)
 date: 2021-09-06 13:32:20 +0300
 excerpt_separator: "<!--more-->"
 categories:
@@ -9,8 +8,6 @@ tags:
   - Python
   - Data Cleaning
   - standard
-
-img: deniseJansUnsplash.jpg # Add image post (optional)
 ---
 
 #### Making Money from Movies - Step 1: Cleaning The Data
