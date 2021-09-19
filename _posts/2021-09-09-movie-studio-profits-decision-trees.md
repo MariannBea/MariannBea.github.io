@@ -1,5 +1,5 @@
 ---
-title: Making Money From Movies - Step 3, Part 2
+title: Making Money From Movies - Step 4, Part 2
 date: 2021-09-09 13:32:20 +0300
 excerpt_separator: "<!--more-->"
 categories:
@@ -9,9 +9,15 @@ tags:
   - Linear Regression
   - standard
 ---
+#### Making Money From Movies - Step 4: Machine Learning Models
+This is the fifth entry in a series about using machine learning models to predict movie success.  You can find the first entry [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed how I cleaned the data, did exploratory data analysis and used linear regression to try to predict movie profits. The aim of this series is to answer the following questions:
 
-
-#### Making Money From Movies - Step 3: Machine Learning Models
+1.	Is there a correlation between genre and profits?
+2.	Is there a correlation between content rating and profits?
+3.	Are some genres more profitable for specific content ratings?
+4.	Does an increase in the number of Facebook likes for directors or actors correlate with increased profits?
+5.	Is being in or directing a greater number of movies correlated with more profits?
+6.	Are some topics correlated with more profits?
 
 
 ##### Decision Trees
