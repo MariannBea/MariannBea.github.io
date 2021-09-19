@@ -10,7 +10,7 @@ tags:
   - standard
 ---
 
-With more data, we could likely narrow down
+With more data, we could likely make better predictions and deterimine which features affect profits with more accuracy.  However, for now, let's look at what we have learned with the data we have.
 
 1.	Is there a correlation between genre and profits?
 
