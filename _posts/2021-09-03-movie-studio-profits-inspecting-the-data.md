@@ -8,6 +8,7 @@ tags:
   - Python
   - Data Analysis
   - standard
+toc: true
 ---
 
 #### Making Money from Movies - Step 1: Inspecting the Data Set
