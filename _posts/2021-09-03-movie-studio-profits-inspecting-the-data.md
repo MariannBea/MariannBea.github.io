@@ -43,3 +43,17 @@ After this quick look over the data, these were the questions I decided to inves
 6.	Are some topics correlated with more profits?
 
 Before beginning the investigation; however, the data will need to be cleaned and organized.
+
+#### Resources
+
+[1]	S. Roy, “Accelerate Your Exploratory Data Analysis With Pandas-Profiling,” Apr. 20, 2020. https://towardsdatascience.com/accelerate-your-exploratory-data-analysis-with-pandas-profiling-4eca0cb770d1 (accessed Jun. 08, 2021).
+
+[2]	M. T. Lash and K. Zhao, “Early Predictions of Movie Success: The Who, What, and When of Profitability,” Journal of Management Information Systems, vol. 33, no. 3, pp. 874–903, Jul. 2016, doi: 10.1080/07421222.2016.1243969.
+
+[Kaggle Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
+
+Hollywood Movies Make a Profit by [Stephen Follows](https://stephenfollows.com/hollywood-movies-make-a-profit/)
+
+Why Do All Hollywood Movies Lose Money? by Alex Mayyasi[Priconomics.com](https://priceonomics.com/why-do-all-hollywood-movies-lose-money/)
+
+[Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/docs/master/index.html)
