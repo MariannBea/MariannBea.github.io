@@ -170,7 +170,7 @@ Click [here](https://github.com/MariannBea/Movie-Studio-Analysis/blob/e5d2e5f134
 
 [The Movie Database](https://www.themoviedb.org/?language=en-US)
 
-Coding for Entrepuneurs, 30 Days of Code [You Tube Vide0](https://www.youtube.com/watch?v=Sg5VTTBIhqo)
+Coding for Entrepuneurs, 30 Days of Code [You Tube Video](https://www.youtube.com/watch?v=Sg5VTTBIhqo)
 
 Coding for Entrepuneurs, 30 Days of Code[Source Code](https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference/Day%2013)
 
