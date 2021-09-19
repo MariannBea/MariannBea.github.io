@@ -26,7 +26,7 @@ In this series, I am aiming to answer the following questions:
 5.	Is being in or directing a greater number of movies correlated with more profits?
 6.	Are some topics correlated with more profits?
 
-#### Using the Movie Database API to Get Bugget Data
+#### Using the Movie Database API to Get Budget Data
 
 First, it was essential to get more accurate profit data.  After searching for a while, it seemed the best place to get this data from was [The Movie Database](https://www.themoviedb.org/?language=en-US).  They have a wide range of information on their site and, unlike IMDb, it was free to access it all via their API. I'd never used an API to get information before. Fortunately, Coding For Entrepreneurs has a [tutorial](https://www.youtube.com/watch?v=Sg5VTTBIhqo) that shows exactly how to use the Movie Database API. You can even access the code used in the tutorial on [GitHub](https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference/Day%2013). The connection kept timing out before the data was downloaded entirely, so I ended up saving the data obtained after each try and collating it together.
 
