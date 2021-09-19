@@ -12,7 +12,7 @@ tags:
 
 #### Making Money From Movies - Step 3: Exploratory Data Analysis
 
-This is the second post in a series about using data analysis to look for features that make movies more likely to be successful.  The first post can be seen [here].
+This is the third post in a series about using data analysis to look for features that make movies more likely to be successful.  The first post can be seen [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/).
 
 Before using any machine learning models on the data, I took a closer look at the relationship between each of the features I thought might affect profits.  I did this by graphing each variable separately against the inflation-adjusted profits to see what patterns could be observed.  The type of graph I used varied according to the data.
 
@@ -69,6 +69,7 @@ Looking at the scatter plots, it appears there might be some weak correlation be
 Having looked more carefully at the data, it is now time to use what I found out to start training machine learning models. You can read about it [here]().
 
 If you would like to see the code that I used in this exploratory data analysis, click [here]().
+
 #### Resources
 
 Tutorial: Exploratory Data Analysis (EDA) with Categorical Variablesby Erin Hoffman on [Medium](https://medium.com/analytics-vidhya/tutorial-exploratory-data-analysis-eda-with-categorical-variables-6a569a3aea55)
