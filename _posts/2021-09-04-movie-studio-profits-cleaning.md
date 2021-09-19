@@ -9,6 +9,8 @@ tags:
   - Data Cleaning
   - standard
 toc: true
+classes: wide
+
 ---
 
 #### Step 2: Preparing and Cleaning The Data
