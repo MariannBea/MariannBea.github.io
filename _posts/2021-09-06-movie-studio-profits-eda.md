@@ -9,8 +9,7 @@ tags:
   - Data Cleaning
 classes: wide
 ---
-
-#### Making Money From Movies - Step 3: Exploratory Data Analysis
+#### Step 3: Exploratory Data Analysis
 
 This is the third post in a series about using data analysis to look for features that make movies more likely to be successful.  The first post can be seen [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/).
 
