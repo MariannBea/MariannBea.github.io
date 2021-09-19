@@ -8,11 +8,8 @@ tags:
   - Python
   - Data Cleaning
   - standard
-toc: true
 classes: wide
-
 ---
-
 #### Step 2: Preparing and Cleaning The Data
 
 This is the second entry in a series about using Machine Learning to determine which features are correlated with making top profits in the movie industry. To read the first post in the series, click [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/).
