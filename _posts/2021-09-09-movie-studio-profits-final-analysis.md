@@ -10,7 +10,7 @@ tags:
   - standard
 ---
 
-For now, let's look at the questions we started with and see if what we have learned.
+With more data, we could likely narrow down
 
 1.	Is there a correlation between genre and profits?
 
@@ -18,14 +18,14 @@ For now, let's look at the questions we started with and see if what we have lea
 
 2.	Is there a correlation between content rating and profits?
 
-   	Looking at the information from the exploratory data analysis, it appears that there is some connection. Content ratings combined with genre did seem to have some predictive ability. However, content ratings alone were not overly predictive in either of the machine learning algorithsm tried. 
+    Looking at the information from the exploratory data analysis, it appears that there is some connection. Content ratings combined with genre did seem to have some predictive ability. However, content ratings alone were not overly predictive in either of the machine learning algorithsm tried. 
 
-3.   Are some genres more profitable for specific content ratings?
+3.  Are some genres more profitable for specific content ratings?
 
     Based on the decision tree model, it appears some genres are more profitable only when linked with particular content ratings. For example, action movies that are rated PG-13 and adventure movies not rated R.
 
 4.	Does an increase in the number of Facebook likes for directors or actors correlate with increased profits?
-
+    
     There is a slight correlation between these two variables, which has become stronger over time.  It would be something to look more closely at with a greater range of more recent movies.
 
 5.	Is being in or directing a greater number of movies correlated with more profits? 
