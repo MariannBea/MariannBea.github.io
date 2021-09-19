@@ -113,7 +113,8 @@ Next, the profit amounts were divided into categories to use with the decision t
 	# divide the profits into categories to use when creating decision trees
 	movies_df['profit_str'] = None
 
-	movies_df['profit_str'] = np.where(movies_df['profit_infl'] >= Q3, 'Success', movies_df['profit_str'])
+	movies_df['profit_str'] = np.where(movies_df['profit_infl'] >= Q3, 
+	                                   'Success', movies_df['profit_str'])
 
 	movies_df['profit_str'] = np.where(movies_df['profit_infl'].between(Q1, Q3),
                                               'Some Profits', movies_df['profit_str'])
@@ -146,9 +147,11 @@ My first attempt to see if there was a correlation between the number of movies 
 
 	# The first time a director is encountered in the dataframe, they will be given a count of one.  
 	# Each additional movie will add to the total
-	for index, title, director, year in movies_df[['movie_title','director_name', 'title_year']].itertuples():
+	for index, title, director, year in movies_df[['movie_title','director_name', 
+	                                               'title_year']].itertuples():
     	if director in director_count:
-        	movies_df.loc[movies_df['movie_title'] == title,'director_count'] = (director_count[director] + 1)
+        	movies_df.loc[movies_df['movie_title'] == title,'director_count'] \
+		                                       = (director_count[director] + 1)
         	director_count[director] += 1
     	else:
         	movies_df.loc[movies_df['movie_title'] == title,'director_count'] = 1
