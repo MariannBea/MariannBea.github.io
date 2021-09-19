@@ -1,5 +1,5 @@
 ---
-title: Making Money From Movies - Step 3, Part 1
+title: Making Money From Movies - Step 4, Part 1
 date: 2021-09-08 13:32:20 +0300
 excerpt_separator: "<!--more-->"
 categories:
@@ -10,9 +10,8 @@ tags:
   - standard
 ---
 
-#### Making Money From Movies - Step 3: Machine Learning Models
+#### Making Money From Movies - Step 4: Machine Learning Models
 
-##### Linear Regression
 This is the fourth entry in a series about using machine learning models to predict movie success.  You can find the first entry [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed how I cleaned the data as well as did exploratory data analysis. The aim of this series is to answer the following questions:
 
 1.	Is there a correlation between genre and profits?
@@ -22,7 +21,9 @@ This is the fourth entry in a series about using machine learning models to pred
 5.	Is being in or directing a greater number of movies correlated with more profits?
 6.	Are some topics correlated with more profits?
 
-I chose to use linear regression because it is a quick way to see if a direct correlation can be found between any features and profits. In these analysis, I used the normalized version of earnings because I found easier to interpret the results. 
+##### Linear Regression
+
+I chose to use linear regression because it is a quick way to see if a direct correlation can be found between any features and profits. Linear regression can be used to look for the ability to predict a dependent variable from one independent variable or multiple variables. I first looked at different features separately against profits in order to gain a better understanding of how strongly each feature was correlated with increased profits. I then combined features that appeared to show some slight correlation with increased profits to see if I could create a model that could be used to predict profits with new movies. In these analysis, I used the normalized version of earnings because I found easier to interpret the results. 
 
 First, I investigated the relationship between genre and profits. I compared all the genres in the data set. Then I used a smaller set with just those genres that appeared to be more closely linked to a movie either losing money or being very profitable.  The genres that were used were: 'Thriller', 'Fantasy', 'Animation', 'Family', 'Action',' Drama', 'Sci-Fi', 'Crime', 'Adventure' and 'Romance'. The comparison with all of the genres gave slightly better results.
 
@@ -57,7 +58,7 @@ Finally, I tried a model with the most predictive features from the previous mod
  
 ![combined features linear regression](https://user-images.githubusercontent.com/83561268/132297557-2595b64e-45e5-4a1f-b3d5-d90af21f4ddb.PNG)
 
-The combined features produced better results than any of the individual sets that I had tried.  However, the coefficient of determination is pretty low. 
+The combined features produced better results than any of the individual sets that I had tried.  However, the coefficient of determination is pretty low and I would not use this model to decide which movies to invest in. 
 
 Since the goal is to determine what movie producers can do to make a successful movie, it will be imporant to see exactly which variables are more likely to lead to success. Using linear regression provided some good clues about which features influence movie success. Genre, number of movies a person was in, duration and 'face_number_in_poster' are likely to have some influence on profits. However, it doesn't tell exactly which genres or if there is a connection between particular genres and content ratings. To find that out, I will be using a decision tree algorithm and looking at the textual representation of the tree produced.  You can read about it [here]().
 
