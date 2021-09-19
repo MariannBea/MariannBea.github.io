@@ -7,7 +7,7 @@ categories:
 tags:
   - Python
   - Data Cleaning
-  - standard
+classes: wide
 ---
 
 #### Making Money From Movies - Step 3: Exploratory Data Analysis
