@@ -11,7 +11,8 @@ tags:
 classes: wide
 ---
 
-#### Making Money from Movies - Step 1: Inspecting the Data Set
+#### Step 1: Inspecting the Data Set
+
 
 25% of the movies in the [IMDb-5000-movie-dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset) lost money.  While this might seem high, according to many online resources, that figure is actually low. [Stephen Fellows](https://stephenfollows.com/hollywood-movies-make-a-profit/) found that about 50% of films actually lose money. It is even said that 80% of movies lose money, although this is likely a trick of [shady practices](https://priceonomics.com/why-do-all-hollywood-movies-lose-money/) and creative bookkeeping. However, some movies do make extraordinary profits. Is it possible to predict which ones will make the most? To find out, I used the IMDB dataset found on the Kaggle website along with a bit of Machine Learning. My goal was to see if I could predict if a film will be in the top 25% of profitability for the year, using factors that movie studios could consider when planning a movie project.   
 
@@ -33,7 +34,7 @@ Understanding what type of information a dataset holds is the first step in any 
 
 After this quick look over the data, these were the questions I decided to investigate further. 
 
-##### Questions to Investigate
+#### Questions to Investigate
 
 1.	Is there a correlation between genre and profits?
 2.	Is there a correlation between content rating and profits?
