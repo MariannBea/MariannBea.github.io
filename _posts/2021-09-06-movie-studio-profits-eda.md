@@ -1,5 +1,5 @@
 ---
-title: Making Money From Movies - Step 2
+title: Making Money From Movies - Step 3
 date: 2021-09-06 13:32:20 +0300
 excerpt_separator: "<!--more-->"
 categories:
@@ -10,7 +10,7 @@ tags:
   - standard
 ---
 
-#### Making Money From Movies - Step 2: Exploratory Data Analysis
+#### Making Money From Movies - Step 3: Exploratory Data Analysis
 
 This is the second post in a series about using data analysis to look for features that make movies more likely to be successful.  The first post can be seen [here].
 
