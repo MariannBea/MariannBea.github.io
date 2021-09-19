@@ -8,9 +8,10 @@ tags:
   - Python
   - Data Cleaning
   - standard
+toc: true
 ---
 
-#### Making Money from Movies - Step 2: Preparing and Cleaning The Data
+#### Step 2: Preparing and Cleaning The Data
 
 This is the second entry in a series about using Machine Learning to determine which features are correlated with making top profits in the movie industry. To read the first post in the series, click [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/).
 
@@ -23,7 +24,7 @@ In this series, I am aiming to answer the following questions:
 5.	Is being in or directing a greater number of movies correlated with more profits?
 6.	Are some topics correlated with more profits?
 
-##### Using the Movie Database API to Get Bugget Data
+#### Using the Movie Database API to Get Bugget Data
 
 First, it was essential to get more accurate profit data.  After searching for a while, it seemed the best place to get this data from was [The Movie Database](https://www.themoviedb.org/?language=en-US).  They have a wide range of information on their site and, unlike IMDb, it was free to access it all via their API. I'd never used an API to get information before. Fortunately, Coding For Entrepreneurs has a [tutorial](https://www.youtube.com/watch?v=Sg5VTTBIhqo) that shows exactly how to use the Movie Database API. You can even access the code used in the tutorial on [GitHub](https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference/Day%2013). The connection kept timing out before the data was downloaded entirely, so I ended up saving the data obtained after each try and collating it together.
 
@@ -63,7 +64,7 @@ After a few tries, I had the data I needed.  The movie database returned ids for
             return True;     
 ```
 
-##### Adjusting for Inflation
+#### Adjusting for Inflation
 
 After updating the budget, revenue and profit information, I located information about [worldwide inflation](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG) from the world bank.  This information was used to adjust the amounts found for inflation.  
 
@@ -126,11 +127,11 @@ Next, the profit amounts were divided into categories to use with the decision t
 	print(movies_df['profit_str'].value_counts())
 ```
 
-##### Preparing for Genre and Content Rating Explorations
+#### Preparing for Genre and Content Rating Explorations
 
 After the profit and budget data were organized, I prepared the data to explore the effect of genres and content rating on profit. Genre information was split into a list, then made binary by encoding a 1 if a movie was listed as a particular genre and a 0 if not. Because the data was in the form of a list, it was impossible to use one-hot encoding. Instead, I used code from a [blog post](https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173) by Max Hilsdorf written about transforming lists into a data frame to create a genres data frame.  I then merged this data frame with the original one.  The content ratings were combined into fewer categories based on the age and suggested amount of parent supervision. This was done to reduce the feature space and, hopefully, give the machine learning algorithms a better chance of predicting movie success.
 
-##### Accurately Counting Movies to Compare with Profits
+#### Accurately Counting Movies to Compare with Profits
 
 My first attempt to see if there was a correlation between the number of movies a director or actor participated in and profits just counted the number of movies each person was in. However, I quickly realized this isn't an accurate representation of reality. A director who directed 43 films didn't direct 43 movies when they were making their first movie. So, I rewrote the code to more accurately reflect the number of movies the person was involved in at the point of time that each one was made. First, the movies were sorted by year. Each time a person was encountered while iterating through the data frame, their count was incremented by one.  This new count was added to the data frame for that movie.
 
@@ -151,8 +152,11 @@ My first attempt to see if there was a correlation between the number of movies 
         	movies_df.loc[movies_df['movie_title'] == title,'director_count'] = 1
         	director_count[director] = 1
 ```
+#### Text Analysis to Find Most Relevant Key Words
  
 Next, the plot keywords field was used with a bag of words model to find words more likely to predict increased movie profits. Other options that were considered for analyzing the keywords were named entity recognition, word embedding and a simple word frequency count.  However, since the goal is to determine what movie executives could do to make movies more likely to succeed, having a list of words correlated to movie success or failure would provide more helpful information. These words would indicate the types of topics that are more likely to result in a successful movie.  The method for preparing the plot list and then analyzing it was shared by Mauro Di Pietro in [this article](https://towardsdatascience.com/text-analysis-feature-engineering-with-nlp-502d6ea9225d). After finding out which keywords were correlated with more or less movie profits, these words were added to the database as binary values using the same method used for the genres.
+
+#### Final Cleaning Steps
  
 The last few steps involved dropping columns, filling in missing values and selecting more recent movies. I dropped the following columns: 'color, 'num_voted_users', 'language', 'country', 'num_user_for_reviews', 'num_critic_for_reviews' as they would not be used in the analysis. Missing values in most columns were filled with the median for those columns. Movies with missing profit information were already dropped while adding the newly acquired revenue, budget and profit data. I also quickly selected only movies made after 1999.  Now the data was finally ready for further analysis. The cleaned database was saved to a csv document to be imported into the notebooks used for analysis. 
 
