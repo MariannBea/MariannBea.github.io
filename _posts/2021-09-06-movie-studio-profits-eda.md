@@ -11,9 +11,16 @@ classes: wide
 ---
 #### Step 3: Exploratory Data Analysis
 
-This is the third post in a series about using data analysis to look for features that make movies more likely to be successful.  The first post can be seen [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/).
+This is the third post in a series about using data analysis to look for features that make movies more likely to be successful.  The first post can be seen [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed my initial analysis and how I cleaned the data. The aim of this series is to answer the following questions:
 
-Before using any machine learning models on the data, I took a closer look at the relationship between each of the features I thought might affect profits.  I did this by graphing each variable separately against the inflation-adjusted profits to see what patterns could be observed.  The type of graph I used varied according to the data.
+1.	Is there a correlation between genre and profits?
+2.	Is there a correlation between content rating and profits?
+3.	Are some genres more profitable for specific content ratings?
+4.	Does an increase in the number of Facebook likes for directors or actors correlate with increased profits?
+5.	Is being in or directing a greater number of movies correlated with more profits?
+6.	Are some topics correlated with more profits?
+
+I will use linear regression and decision trees to help answer these questions. However, before using any machine learning models on the data, I took a closer look at the relationship between each of the features I thought might affect profits.  I did this by graphing each variable separately against the inflation-adjusted profits to see what patterns could be observed.  The type of graph I used varied according to the data.
 
 First, I looked more carefully at the association between genre and profits.  I did this in several ways.  One was looking for a correlation between the number of genres that a movie was labelled and profits using a scatter plot. 
 
