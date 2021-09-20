@@ -19,14 +19,17 @@ This is the fifth entry in a series about using machine learning models to predi
 5.	Is being in or directing a greater number of movies correlated with more profits?
 6.	Are some topics correlated with more profits?
 
-
 ##### Decision Trees
 
-This is a last entry in a series about using machine learning models to predict movie success. You can find the first entry [here]().
+The Decision Tree algorithm classifies data instances into different categories. It's accuracy can be measured using both a an accuracy score and a confusion matrix.  The accuracy score ranges between 0 - 1 and indicates what percentage of the instances were correctly classified. 0 means that none of the instances were correctly classified and 1 means 100% of them were classified into the correct category. However, this score can be misleading. A high accuracy score can sometimes be achieved by merely classifying all of the instances under the most common category. This particularly likely in dataset where the number of instances in each category is imbalanced. To get a better idea of how the accuracy score is obtained, the confusion matrix should be used. This matrix shows how many instances of each category were classified correctly. It also shows under which category the incorrectly classified instances were categorized. The image below shows why a confusion matrix is necessary. As you can see, the accuracy score is about 52%, but this was achieved by categorizing most instances under "Some Profits". This isn't particularly helpful for determining which features help make a movie more profitable than the norm.
 
-I used the decision tree algorithm because it gives valuable information about how the various features related to each other affect the results.  For example, it might be that Adventure Movies rated PG or PG-13 with a budget in the 25th percentile are much more likely to be successful than rated R Adventure movies with a budget in the 75th percentile.  
+![Confusion Matrix](https://user-images.githubusercontent.com/83561268/133950510-c571724e-1c9b-4150-a9b4-c2360969e98e.PNG)
 
-Looking carefully at a textual representation of the trees created makes it easier to see these connections. From the linear regression models I ran, it seemed there was a slight correlation between genre and profits. I was hoping that a decision tree would provide better results and give more information about which combinations of genres, content ratings, and budget allocations result in more profits.
+The true benefit of the decision tree algorithm is it gives valuable information about how the various features related to each other affect the results. Along with the accuracy score and decision matrix, it is possible to print out a visual representation of the tree.  By looking carefully at this representation, it is possible to determine with more precision which features are more likely to lead to a specific categorization. 
+
+![Decision Tree](https://user-images.githubusercontent.com/83561268/133950856-752dd04a-240f-469c-9b74-5911eed7dccc.PNG)
+
+For example, in the image above, you can see that adventure movies that do not contain animation are likely to make some profits, but those that do contain animation are likely to be a success. Go further down the tree and you can see that adventure movies that contain action are likely to be a success whether or not they are also classified as thrillers. Adding more features to the decision tree allows an even better analysis of how these features interact and which conditions make high movie profits more likely.  The linear regression models I ran showed a slight correlation between genre and profits. A decision tree might provide better results and give more information about which combinations of genres, content ratings, and budget allocations result in more profits.
 
 I started by looking at genre.  I first tried all genres rather than just selected ones that looked like they correlated with very successful or unsuccessful movies. I was very excited to see an accuracy score of 53% on the first try, as this was the highest score I had seen for this data set.  However, looking more carefully at the confusion matrix showed that most movies had been classified under “some profits”. Unfortunately, the high accuracy did not indicate a model that was strong at predicting movie success.
 
@@ -65,7 +68,7 @@ For the final decision tree model, I experimented with changing many of the vari
 
 ![final decision tree confusion matrix](https://user-images.githubusercontent.com/83561268/132425923-5be786d8-7a78-48bc-a5b2-4ac3fa4033ea.PNG)
 
- This was very similar to the ‘bingo accuracy’ results found by Mahmud Q, Shuchi N, Tawsif F, et al. in a study about predicting movies using machine learning. [3] Lash M. and Zhao K. achieved much better results by adding extra data such as the movie release date and actor salaries. [2] This might be something to explore in the future. 
+This was very similar to the ‘bingo accuracy’ results found by Mahmud Q, Shuchi N, Tawsif F, et al. in a study about predicting movies using machine learning. [3] Lash M. and Zhao K. achieved much better results by adding extra data such as the movie release date and actor salaries. [2] This might be something to explore in the future. 
 
 [Here](https://github.com/MariannBea/Movie-Studio-Analysis/blob/e5d2e5f134100b56a835581371772b68c18c172b/Notebooks/Movies%20-%20Decision%20Tree.ipynb) is the code I used for the decision tree analysis.
 
