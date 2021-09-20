@@ -9,6 +9,10 @@ tags:
   - Data Analysis
   - standard
 classes: wide
+header:
+  overlay_image: /assets/images/deniseJansUnsplash.jpg
+  caption: "Photo credit: [**Photo by Denise Jans on Unsplash**](https://unsplash.com/photos/Lq6rcifGjOU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
+
 ---
 
 #### Step 1: Inspecting the Data Set
