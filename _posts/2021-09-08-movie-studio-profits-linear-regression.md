@@ -44,7 +44,7 @@ Facebook likes were the next feature that I tried.  Facebook has not been around
 
 With films made after 2005, shortly after Facebook was founded, the coefficient of determination is only 9%.  However, this increases to 17% with movies made after 2015.  Facebook likes do a much better job of predicting movie success with movies made more recently.  Because the dataset contains movies from a wide range of dates, this feature might not be that useful in creating a model using this particular dataset.  However, it would definitely be worth considering using this feature in a model with a set based off of only more recent movies.
  	 	 
-Next, I looked at how well the plot keywords could predict movie profits.  The graph below shows that these keywords have an abysmal predictive ability. I tried a range of words and got very similar results each time.
+Next, I looked at how well the plot keywords could predict movie profits.  The graph below shows that these keywords have an abysmal predictive ability. Even though I used the normalized profits values, the coefficient of determination is way outside the range of 0 - 1. I tried a range of words and got very similar results each time.
 
 ![keywords linear regression](https://user-images.githubusercontent.com/83561268/132297470-184e69db-bccc-4685-9af0-a5607c43bd84.PNG)
  
