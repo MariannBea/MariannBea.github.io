@@ -7,11 +7,11 @@ categories:
 tags:
   - Python
   - Linear Regression
+classes: wide
 ---
-
 #### Step 4: Machine Learning Models
 
-This is the fourth entry in a series about using machine learning models to predict movie success.  You can find the first entry [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed how I cleaned the data as well as did exploratory data analysis. The aim of this series is to answer the following questions:
+This is the fourth entry in a series about using machine learning models to predict movie success.  You can find the first entry [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed how I cleaned the data as well as did exploratory data analysis. The aim of this series is to answer the following questions: 
 
 1.	Is there a correlation between genre and profits?
 2.	Is there a correlation between content rating and profits?
@@ -22,7 +22,7 @@ This is the fourth entry in a series about using machine learning models to pred
 
 ##### Linear Regression
 
-I chose to use linear regression because it is a quick way to see if a direct correlation can be found between any features and profits. Linear regression can be used to look for the ability to predict a dependent variable from one independent variable or multiple variables. I first looked at different features separately against profits in order to gain a better understanding of how strongly each feature was correlated with increased profits. I then combined features that appeared to show some slight correlation with increased profits to see if I could create a model that could be used to predict profits with new movies. In these analysis, I used the normalized version of earnings because I found easier to interpret the results. 
+I chose to use linear regression because it is a quick way to see if a direct correlation can be found between any features and profits. Linear regression can be used to look for the ability to predict a dependent variable from one independent variable or multiple variables. I first looked at different features separately against profits in order to gain a better understanding of how strongly each feature was correlated with increased profits. I then combined features that appeared to show some slight correlation with increased profits to see if I could create a model that could be used to predict profits with new movies. In these analysis, I used the normalized version of earnings because I found easier to interpret the coefficient of determination using this value. The coefficient of determination, also called R squared, is a way of measuring how much of an effect the independent variables have on the dependent variable. Using the normalized version of the profits caused this value to remain in the range between 0 and 1 in most cases. Values closer to one indicate that a larger percentage of the profit value can be attributed to the indpendent variables. Values closer to 0 indicate that the independent variables have little effect on profit. 
 
 First, I investigated the relationship between genre and profits. I compared all the genres in the data set. Then I used a smaller set with just those genres that appeared to be more closely linked to a movie either losing money or being very profitable.  The genres that were used were: 'Thriller', 'Fantasy', 'Animation', 'Family', 'Action',' Drama', 'Sci-Fi', 'Crime', 'Adventure' and 'Romance'. The comparison with all of the genres gave slightly better results.
 
