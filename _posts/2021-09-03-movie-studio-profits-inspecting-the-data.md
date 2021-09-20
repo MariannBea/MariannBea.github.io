@@ -59,6 +59,6 @@ Before beginning the investigation; however, the data will need to be cleaned an
 
 Hollywood Movies Make a Profit by [Stephen Follows](https://stephenfollows.com/hollywood-movies-make-a-profit/)
 
-Why Do All Hollywood Movies Lose Money? by Alex Mayyasi[Priconomics.com](https://priceonomics.com/why-do-all-hollywood-movies-lose-money/)
+Why Do All Hollywood Movies Lose Money? by Alex Mayyasi [Priconomics.com](https://priceonomics.com/why-do-all-hollywood-movies-lose-money/)
 
 [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/docs/master/index.html)
