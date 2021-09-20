@@ -7,10 +7,9 @@ categories:
 tags:
   - Python
   - Linear Regression
-  - standard
 ---
 
-#### Making Money From Movies - Step 4: Machine Learning Models
+#### Step 4: Machine Learning Models
 
 This is the fourth entry in a series about using machine learning models to predict movie success.  You can find the first entry [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed how I cleaned the data as well as did exploratory data analysis. The aim of this series is to answer the following questions:
 
@@ -60,6 +59,6 @@ Finally, I tried a model with the most predictive features from the previous mod
 
 The combined features produced better results than any of the individual sets that I had tried.  However, the coefficient of determination is pretty low and I would not use this model to decide which movies to invest in. 
 
-Since the goal is to determine what movie producers can do to make a successful movie, it will be imporant to see exactly which variables are more likely to lead to success. Using linear regression provided some good clues about which features influence movie success. Genre, number of movies a person was in, duration and 'face_number_in_poster' are likely to have some influence on profits. However, it doesn't tell exactly which genres or if there is a connection between particular genres and content ratings. To find that out, I will be using a decision tree algorithm and looking at the textual representation of the tree produced.  You can read about it [here]().
+Since the goal is to determine what movie producers can do to make a successful movie, it will be imporant to see exactly which variables are more likely to lead to success. Using linear regression provided some good clues about which features influence movie success. Genre, number of movies a person was in, duration and 'face_number_in_poster' are likely to have some influence on profits. However, it doesn't tell exactly which genres or if there is a connection between particular genres and content ratings. To find that out, I will be using a decision tree algorithm and looking at the textual representation of the tree produced.  You can read about it [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-decision-trees/).
 
 [Here](https://github.com/MariannBea/Movie-Studio-Analysis/blob/43cb71c1faf238a93734623185c424611396ffa3/Notebooks/Movies%20-%20Linear%20Regression.ipynb) is the code I used for the linear regression analysis.
