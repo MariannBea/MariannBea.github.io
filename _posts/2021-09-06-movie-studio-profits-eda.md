@@ -20,9 +20,9 @@ This is the third post in a series about using data analysis to look for feature
 5.	Is being in or directing a greater number of movies correlated with more profits?
 6.	Are some topics correlated with more profits?
 
-I will use linear regression and decision trees to help answer these questions. However, before using any machine learning models on the data, I took a closer look at the relationship between each of the features I thought might affect profits.  I did this by graphing each variable separately against the inflation-adjusted profits to see what patterns could be observed.  The type of graph I used varied according to the data.
+I will use linear regression and decision trees to help answer these questions. However, before using any machine learning models on the data, I took a closer look at the relationship between each of the features I thought might affect profits.  I did this by graphing each variable separately against the inflation-adjusted gains to see what patterns could be observed.  The type of graph I used varied according to the data.
 
-First, I looked more carefully at the association between genre and profits.  I did this in several ways.  One was looking for a correlation between the number of genres that a movie was labelled and profits using a scatter plot. 
+First, I looked more carefully at the association between genre and profits.  I did this in several ways.  One was looking for a correlation between the number of genres that a movie was labeled and profits using a scatter plot. 
 
 ![picture of genre scatter plot](https://user-images.githubusercontent.com/83561268/132159013-59baaaf7-76e1-4515-b23c-bfe260ecd922.png)
 
@@ -54,7 +54,7 @@ The graphs above show that NC-17 and Unrated Movies are unlikely to affect predi
 
 The graph above makes it even more apparent that a greater proportion of movies made for children and young adults are likely to make profits than lose money.
 
-Next, I looked at the relationship between keywords and profits.  A box plot was used to show the range of profits made by movies linked to each keyword. Based on the keywords below, it seems that films that can be described as 'epic' are very likely to be successful. The same is true for movies that feature princesses and secrets. I was surprised to see that fish is also a keyword that appears to be linked to movies that are more likely to make a significant profit. I was also amazed to see that, contrary to a well-known saying, it seems that movies with drugs or sex as main features are more likely to lose money than to make lots of profit. 
+Next, I looked at the relationship between keywords and profits.  A box plot was used to show the range of profits made by movies linked to each keyword. Based on the keywords below, it seems that films that can be described as 'epic' are very likely to be successful. The same is true for movies that feature princesses and secrets. I was surprised to see that fish is also a keyword that appears to be linked to movies that are more likely to make a significant profit. I was also amazed to see that, contrary to a well-known saying, it seems that films with drugs or sex as main features are more likely to lose money than to make lots of profit. 
 
 ![keyword box plot](https://user-images.githubusercontent.com/83561268/132215226-0d2c353f-814a-4aa7-b95e-2f3ba3dcf05f.png)
 
@@ -62,7 +62,7 @@ Looking at the graphs below, it appears that the number of movies an actor or di
 
 ![Number of Movies Scatter Plots](https://user-images.githubusercontent.com/83561268/132224342-c8ce39a8-f721-4937-95af-d033cafba7a1.png)
 
-There isn't an obvious correlation between the number of Facebook likes directors or actors had and movie profits.  Because Facebook is recent, it seemed like this feature might only be relevant to movies made after Facebook became popular. When creating these graphs, I created a separate data frame with movies made only after a particular year.  I tried various cut-off years from 2004 to 2015; however, no obvious correlation was visible in any graphs produced.  The scatterplots shown above were created with movies made after 2010.
+There isn't an obvious correlation between the number of Facebook likes directors or actors had and movie profits.  Because Facebook is recent, it seemed like this feature might only be relevant to movies made after Facebook became popular. I created a separate data frame with movies made only after a particular year when creating these graphs.  I tried various cut-off years from 2004 to 2015; however, no apparent correlation was visible in any plots produced.  The scatterplots shown above were created with movies made after 2010.
 
 ![Facebook Likes and Profits](https://user-images.githubusercontent.com/83561268/132225918-af096b22-8753-4c4c-8346-48c32b4a50b9.PNG)
 
@@ -72,9 +72,9 @@ The relationship between budget, posters' faces and movie duration is not part o
 
 Looking at the scatter plots, it appears there might be some weak correlation between budget and profits.  The number of faces in posters seems to have a slight negative correlation with earnings, while movie duration looks positive.
 
-Having looked more carefully at the data, it is now time to use what I found out to start training machine learning models. You can read about it [here]().
+Having looked more carefully at the data, it is now time to use what I learned to start training machine learning models. You can read about it [here]().
 
-If you would like to see the code that I used in this exploratory data analysis, click [here]().
+If you would like to see the code I used in this exploratory data analysis, click [here]().
 
 #### Resources
 
