@@ -7,7 +7,6 @@ categories:
 tags:
   - Python
   - Analysis
-  - standard
 ---
 
 We could likely make better predictions and determine which features affect profits with more accuracy with more data.  However, for now, let's look at what we have learned with the data we have.
