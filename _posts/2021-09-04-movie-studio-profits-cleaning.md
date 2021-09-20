@@ -7,7 +7,6 @@ categories:
 tags:
   - Python
   - Data Cleaning
-  - standard
 classes: wide
 ---
 #### Step 2: Preparing and Cleaning The Data
@@ -174,7 +173,7 @@ Click [here](https://github.com/MariannBea/Movie-Studio-Analysis/blob/e5d2e5f134
 
 Coding for Entrepuneurs, 30 Days of Code [You Tube Video](https://www.youtube.com/watch?v=Sg5VTTBIhqo)
 
-Coding for Entrepuneurs, 30 Days of Code[Source Code](https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference/Day%2013)
+Coding for Entrepuneurs, 30 Days of Code [Source Code](https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference/Day%2013)
 
 [World Bank Inflation Indicators](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG)
 
