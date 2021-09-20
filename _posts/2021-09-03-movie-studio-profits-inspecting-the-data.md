@@ -7,16 +7,13 @@ categories:
 tags:
   - Python
   - Data Analysis
-  - standard
 classes: wide
 header:
   overlay_image: /assets/images/deniseJansUnsplash.jpg
   caption: "Photo credit: [**Photo by Denise Jans on Unsplash**](https://unsplash.com/photos/Lq6rcifGjOU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
-
 ---
 
 #### Step 1: Inspecting the Data Set
-
 
 25% of the movies in the [IMDb-5000-movie-dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset) lost money.  While this might seem high, according to many online resources, that figure is actually low. [Stephen Fellows](https://stephenfollows.com/hollywood-movies-make-a-profit/) found that about 50% of films actually lose money. It is even said that 80% of movies lose money, although this is likely a trick of [shady practices](https://priceonomics.com/why-do-all-hollywood-movies-lose-money/) and creative bookkeeping. However, some movies do make extraordinary profits. Is it possible to predict which ones will make the most? To find out, I used the IMDB dataset found on the Kaggle website along with a bit of Machine Learning. My goal was to see if I could predict if a film will be in the top 25% of profitability for the year, using factors that movie studios could consider when planning a movie project.   
 
