@@ -7,7 +7,6 @@ categories:
 tags:
   - Python
   - Linear Regression
-  - standard
 ---
 #### Making Money From Movies - Step 4: Machine Learning Models
 This is the fifth entry in a series about using machine learning models to predict movie success.  You can find the first entry [here](https://mariannbea.github.io/machine%20learning/movie-studio-profits-inspecting-the-data/). In previous posts, I discussed how I cleaned the data, did exploratory data analysis and used linear regression to predict movie profits. The aim of this series is to answer the following questions:
