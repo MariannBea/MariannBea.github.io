@@ -1,7 +1,7 @@
 
 #### Covid's Impact on Education
 
-I was in Beijing getting ready to enjoy a Chinese New Year holiday when I first heard of Covid.  As the parents of the students in my class came to pick their children, they told me to be careful. They said I shouldn't travel during the break because there was a new disease in China and to stay inside as much as possible. At first, I thought they were overreacting. It turns out they weren't. I watched in horror as the Covid numbers went from a little over 800 to over 10000 in a week. I continued to watch in the following weeks as the numbers rose exponentially.  More and more people seemed to be going into the hospital, but no one was coming out. More and more people seemed to be dying, though. I started to get nervous.
+I was in Beijing getting ready to enjoy a Chinese New Year holiday when I first heard of Covid.  As the parents of the students in my class came to pick their children, they told me to be careful. They said I shouldn't travel during the break because there was a new disease in China and to stay inside as much as possible. At first, I thought they were overreacting. It turns out they weren't. I watched in horror as the Covid numbers went from a little over 800 to over 10000 in a week. I continued to watch in the following weeks as the numbers rose exponentially.  More and more people seemed to be going into the hospital, but no one was coming out. However, many people seemed to be dieing. I started to get nervous.
 
 Soon our school was closed indefinitely, and we began online learning. By the end of the next month, there were 100,000 cases, and Covid was detected in other countries. I have continued to follow the effect that Covid has had around the world, regularly reading about how different societies have reacted to it and how it is has affected the people living there. As a teacher, I have also been particularly interested in its effect on students and teachers. 
 
@@ -18,12 +18,8 @@ The data on the Kaggle website consisted of three main types of information:
 
 After downloading the data, the first thing that I did was open the district and program information files and look at them. I also opened a random selection of the district files. My first impression of the data was that it was very well structured, and there seemed to be very little missing data.  
 
-The district file contained the most missing data. Quite a few of the districts had no demographic information at all. My first inclination was to disregard these districts. However, sometimes the pattern in which data is missing can also give valuable information. For example, perhaps most of the communities that are missing demographic information use the most online resources. That might be a clue that the most affluent districts removed their demographic information before it was shared.  I decided to keep the data and analyze these districts as a separate group in some analyses.
-Looking next at the program data, I noticed that a few of the programs in the program data were missing information about what sector they served and their function. Most of the programs that were missing this data were general programs like Youtube and Adobe that are used by most people. It didn't seem like this missing information would affect the results as much as the missing demographics information. 
-
-Finally, I opened a random selection of the engagement data. Based on the files I opened, it appeared that there was information from every day of the year.  Each of the files had complete data for days, program id and percent access, and all had left the engagement index field blank when the percent access was zero for the day.  There were vast differences in the program use between the different files I opened. 
-
 From just this quick glance at the data, here are some questions that I would like to investigate:
+
 *  How does engagement change during online and offline learning?
 *  Does engagement have an effect on student achievement levels?
 *  How were student achievement levels affected by periods of online learning?
@@ -31,4 +27,4 @@ From just this quick glance at the data, here are some questions that I would li
 *  Which programs had the most engagement?
 *  Is there are correlation between extensive use of any of the programs and student achievement?
 
-I will likely develop more questions as I explore the data further. Based on my questions, I will need to obtain more data about when different states had online and in-person learning. I will also need to see if I can find achievement data.  However, since it is not possible to identify which districts are indicated by the numbers given, I am not sure that I will be able to answer some of the questions about achievement.  I will have to see what information is publicly available.  Hopefully, the information I find will help me to answer at least some of the questions about achievement.
+I will likely develop more questions as I explore the data further. Based on my questions, I will need to obtain more data about when different states had online and in-person learning. I will also need to see if I can find achievement data. However, since it is not possible to identify which districts are indicated by the numbers given, I am not sure that I will be able to answer some of the questions about achievement. I will have to see what information is publicly available. Hopefully, the information I find will help me to answer at least some of the questions about achievement. I am also hoping to find other sources of data that might lead to more questions. I am looking forward to seeking what I can find out.
