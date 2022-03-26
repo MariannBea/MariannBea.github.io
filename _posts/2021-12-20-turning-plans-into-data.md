@@ -1,3 +1,4 @@
+---
 title: "Turning Technology Plans into to Usable Data"
 date: 2021-12-20 13:32:20 +0300
 excerpt_separator: "<!--more-->"
@@ -9,7 +10,7 @@ tags:
   - Natural Language Processing
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
-You can read the first post [here]<https://mariannbea.github.io/covid-impact-on-education/>.
+You can read the first post [here](https://mariannbea.github.io/covid-impact-on-education/).
 
 In my last post, I wrote about finding data to help me answer questions about the use of digital learning platforms in schools. Much of this data led to more general questions about learning and technology use. One of the questions was about the impact that a state's technology plans had on the use of digital platforms. I wanted to investigate if any particular focuses were correlated with more engagement with Edtech. I also wanted to see if there was any correlation between the content of these plans and student achievement. 
 
@@ -19,21 +20,24 @@ After I had obtained the documents, I needed to change them from unstructured to
 
 These were the original key words I found:
 
-flexible  
-for_assess  
-goals 
-home_access   investment  
-one_to_one  
-professional_development
-privacy   problem_solving 
-learning_communities
-shared_resources  
-personalized_learning standards 
-student_centered
-tech_Leader 
-integration tech_lit  
-state_wide_goals
-as_learning_tool
+* flexible  
+* for_assess  
+* goals 
+* home_access   
+* investment  
+* one_to_one  
+* professional_development
+* privacy   
+* problem_solving 
+* learning_communities
+* shared_resources  
+* personalized_learning 
+* standards 
+* student_centered
+* tech_Leader 
+* integration tech_lit  
+* state_wide_goals
+* as_learning_tool
 
 I also included the year created as it indicated how long the state had been working on those particular goals. I suspected that this could impact student use of digital platforms. 
 
@@ -92,9 +96,9 @@ I then condensed some of the key phrases into the following concepts:
 
 Finally, I carefully read the documents to see if they talked about the concepts while not directly using any keywords. For example, a teacher would understand all of the phrases in the picture below to mean "authentic learning", even though those words are very explicitly stated.
 
-![authentic](https://user-images.githubusercontent.com/83561268/160231259-d4492d33-eb95-4b57-a38a-3a54a1b58916.PNG)
+![authentic](https://user-images.githubusercontent.com/83561268/160234678-94493678-7cd5-42b0-b343-c73c57e579bb.PNG)
 
-I updated the spreadsheet as appropriate. Now that the data was structured, I would be able to use it to determine if there was a correlation between technology documents and student learning.
+I updated the spreadsheet as appropriate. Now that the data was structured, I would finally be able to use it to determine if there was a correlation between technology documents and student learning.
 
 
 
