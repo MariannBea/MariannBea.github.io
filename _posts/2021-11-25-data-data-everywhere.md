@@ -64,10 +64,9 @@ This had the advantage of helping to ensure the data was in the appropriate form
 
 ##### Data Sources used in this project:
 
-[Kaggle Data]( https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning) 
-[School Culture Data](https://nces.ed.gov/)
-[School Assessment Data]( https://www.nationsreportcard.gov/ndecore/landing)
-[Data About School Delivery Models](https://www.covidschooldatahub.com/states/illinois)
+* [Kaggle Data]( https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning) 
+* [School Culture Data](https://nces.ed.gov/)
+* [School Assessment Data]( https://www.nationsreportcard.gov/ndecore/landing)
+* [Data About School Delivery Models](https://www.covidschooldatahub.com/states/illinois)
 
-The school technology plans that were analyzed can be found in![this]() folder.
-diff --git a/_posts/2021-12-20-turning-plans-into-data.md b/_posts/2021-12-20-turning-plans-into-data.md
+The school technology plans that were analyzed can be found in [this](https://github.com/MariannBea/Use-of-Digital-Learning-Platforms-in-2020/tree/main/data/raw_data/research/state_tech_plans) folder.
