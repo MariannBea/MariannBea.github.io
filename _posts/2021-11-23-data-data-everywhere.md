@@ -10,7 +10,7 @@ tags:
   - SQL
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
-You can read the first post [here]<https://mariannbea.github.io/covid-impact-on-education/>.
+You can read the first post [here](https://mariannbea.github.io/covid-impact-on-education/).
 
 I chose to work on a project related to Covid and Learning because of my experience working as a teacher during the pandemic. This project was inspired by a Kaggle Competition sponsored by Learn Platform, and much of the data used came from that competition.
 
@@ -51,14 +51,14 @@ Most of the data was quick and easy to clean and transform. The one exception to
 
 Once I had the data prepared, I designed an SQL database to store it. This had the advantage of helping to ensure the data was in the appropriate format as it was added to the database. This was one of the ways that I caught some errors in the engagement data. It also allowed me to easily combine the data from different sources to analyze through creating queries for data as I needed it. With the data cleaned and ready to use, it was time to analyze it.
 
-![sqlModelpict](https://user-images.githubusercontent.com/83561268/160225717-f6b4b08d-4c73-45ce-bca6-27da98a98a45.png
+![sqlModelpict](https://user-images.githubusercontent.com/83561268/160225717-f6b4b08d-4c73-45ce-bca6-27da98a98a45.png)
 
 Data Sources used in this project:
 
-![Kaggle Data]( https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning) 
-![School Culture Data](https://nces.ed.gov/)
-![School Assessment Data]( https://www.nationsreportcard.gov/ndecore/landing)
-![Data About School Delivery Models](https://www.covidschooldatahub.com/states/illinois)
+[Kaggle Data]( https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning) 
+[School Culture Data](https://nces.ed.gov/)
+[School Assessment Data]( https://www.nationsreportcard.gov/ndecore/landing)
+[Data About School Delivery Models](https://www.covidschooldatahub.com/states/illinois)
 
 The school technology plans that were analyzed can be found in![this]() folder.
 diff --git a/_posts/2021-12-20-turning-plans-into-data.md b/_posts/2021-12-20-turning-plans-into-data.md
