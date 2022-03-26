@@ -1,3 +1,13 @@
+---
+title: "Exploring EdTech Usage During A Pandemic"
+date: 2021-10-29 13:32:20 +0300
+excerpt_separator: "<!--more-->"
+categories:
+  - Data Analysis
+tags:
+  - Python
+  - Research Design
+---
 
 #### Covid's Impact on Education
 
