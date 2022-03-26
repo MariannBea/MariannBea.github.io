@@ -37,7 +37,14 @@ Finally, I opened a random selection of the engagement data. Based on the files 
 
 One of the questions I was most interested in answering was if there was a correlation between using Digital Platforms and student achievement. So, I decided to start by looking for student assessment data. From my own personal experience, I saw how students’ educational experience in one state can vary significantly from district to district. So, I would have liked to compare outcomes by school district. This would have given the most accurate picture of how the use of online platforms was influenced by school closures and district-level decisions. It would have also allowed for a more precise analysis of the correlation between the use of EdTech and student achievement. However, the data providers had purposefully removed data to anonymize the districts. It was decided not to attempt to determine which data were linked to which actual communities for ethical reasons. Instead, outcomes would be compared on a state-by-state basis.
  
-I created a quick pivot table in Excel to determine which states to include. I had initially intended to include states with over 10 districts. This would be more likely to include a broader range of demographics and types of schools. ![picture of pivot table](https://user-images.githubusercontent.com/83561268/160224449-76f87a72-6bbe-4153-9d85-e410b6e16037.PNG) However, there were only 7 states with information for more than 10 districts in the data. This didn’t seem enough, so I included states with more than 5 districts. This was not ideal, but it was the best I would be able to do with the data I had. I had also intended to investigate whether there were any differences between districts in rural areas, suburban areas, or towns. However, creating a new pivot table made it apparent that this was not a viable option for this dataset. ![picture of pivot table with city type](https://user-images.githubusercontent.com/83561268/160224476-1a060ece-2ea9-420c-aff1-c9ff052c11b6.PNG)
+I created a quick pivot table in Excel to determine which states to include. I had initially intended to include states with over 10 districts. This would be more likely to include a broader range of demographics and types of schools. 
+
+![picture of pivot table](https://user-images.githubusercontent.com/83561268/160224449-76f87a72-6bbe-4153-9d85-e410b6e16037.PNG) 
+
+However, there were only 7 states with information for more than 10 districts in the data. This didn’t seem enough, so I included states with more than 5 districts. This was not ideal, but it was the best I would be able to do with the data I had. I had also intended to investigate whether there were any differences between districts in rural areas, suburban areas, or towns. However, creating a new pivot table made it apparent that this was not a viable option for this dataset. 
+
+![picture of pivot table with city type](https://user-images.githubusercontent.com/83561268/160224476-1a060ece-2ea9-420c-aff1-c9ff052c11b6.PNG)
+
 
 Finding data was much more manageable after I knew which states I would include in the analysis. In fact, I found a lot more data than it made sense to include. In the end, I decided to use data about:
 
@@ -49,11 +56,13 @@ Finding data was much more manageable after I knew which states I would include 
 
 Most of the data was quick and easy to clean and transform. The one exception to this was the school’s technology plans. That took a lot more time and effort, which is what the focus of the next post will be about. 
 
-Once I had the data prepared, I designed an SQL database to store it. This had the advantage of helping to ensure the data was in the appropriate format as it was added to the database. This was one of the ways that I caught some errors in the engagement data. It also allowed me to easily combine the data from different sources to analyze through creating queries for data as I needed it. With the data cleaned and ready to use, it was time to analyze it.
+Once I had the data prepared, I designed an SQL database to store it. 
 
-![sqlModelpict](https://user-images.githubusercontent.com/83561268/160225717-f6b4b08d-4c73-45ce-bca6-27da98a98a45.png)
+![sql_model_calendar_small](https://user-images.githubusercontent.com/83561268/160234361-ab786cb4-8f24-4faf-86c0-abf4b3a65a7b.png)
 
-Data Sources used in this project:
+This had the advantage of helping to ensure the data was in the appropriate format as it was added to the database. This was one of the ways that I caught some errors in the engagement data. It also allowed me to easily combine the data from different sources to analyze through creating queries for data as I needed it. With the data cleaned and ready to use, it was time to analyze it.
+
+##### Data Sources used in this project:
 
 [Kaggle Data]( https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning) 
 [School Culture Data](https://nces.ed.gov/)
