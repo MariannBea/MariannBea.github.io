@@ -38,7 +38,7 @@ This post will look at what I learned about whether states with higher student a
 
 Before I could investigate if there was any correlation between test scores and online engagement, I needed to see how the students in each state performed on the national assessment. To better understand this, I created bar graphs showing achievement in each state against the national average.
 
-![bar graph](https://user-images.githubusercontent.com/83561268/160241745-624cb91e-5ef4-4971-874a-c8cfc0711eeb.PNG")
+![bar graph](https://user-images.githubusercontent.com/83561268/160241745-624cb91e-5ef4-4971-874a-c8cfc0711eeb.PNG)
 
 The graph made it easy to see that Massachusetts outperforms all other states in the study in all four assessments. Massachusetts, Indiana, Utah, Connecticut and Ohio were at or above the national average in all examinations. California was the only state below the national average in all four areas. However, New York did not perform that much better. It is also apparent that there are no vast differences in achievement between any states, except for Massachusetts.
 
