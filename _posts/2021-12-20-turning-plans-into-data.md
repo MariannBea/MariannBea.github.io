@@ -2,13 +2,14 @@
 title: "Turning Technology Plans into to Usable Data"
 date: 2021-12-20 13:32:20 +0300
 excerpt_separator: "<!--more-->"
+classes:
+  - wide
 categories:
   - Data Analysis
 tags:
   - Python
   - Analysis
   - Natural Language Processing
-classes: wide
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
 You can read the first post [here](https://mariannbea.github.io/data%20analysis/covid-impact-on-education/).
