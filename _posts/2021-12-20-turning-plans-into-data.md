@@ -8,9 +8,10 @@ tags:
   - Python
   - Analysis
   - Natural Language Processing
+classes: wide
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
-You can read the first post [here](https://mariannbea.github.io/covid-impact-on-education/).
+You can read the first post [here](https://mariannbea.github.io/data%20analysis/covid-impact-on-education/).
 
 In my last post, I wrote about finding data to help me answer questions about the use of digital learning platforms in schools. Much of this data led to more general questions about learning and technology use. One of the questions was about the impact that a state's technology plans had on the use of digital platforms. I wanted to investigate if any particular focuses were correlated with more engagement with Edtech. I also wanted to see if there was any correlation between the content of these plans and student achievement. 
 
