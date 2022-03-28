@@ -8,9 +8,10 @@ tags:
   - Python
   - Analysis
   - SQL
+classes: wide
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
-You can read the first post [here](https://mariannbea.github.io/covid-impact-on-education/).
+You can read the first post [here](https://mariannbea.github.io/data%20analysis/covid-impact-on-education/).
 
 I chose to work on a project related to Covid and Learning because of my experience working as a teacher during the pandemic. This project was inspired by a Kaggle Competition sponsored by Learn Platform, and much of the data used came from that competition.
 
