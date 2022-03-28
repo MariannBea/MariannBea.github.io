@@ -10,7 +10,7 @@ tags:
 classes: wide
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
-You can read the first post [here](https://mariannbea.github.io/covid-impact-on-education/).
+You can read the first post [here](https://mariannbea.github.io/data%20analysis/covid-impact-on-education/).
 
 After obtaining additional data, I modified some of the questions that I aimed to answer and added some additional ones. Here are the final questions that I am hoping to answer through analysis:
 
