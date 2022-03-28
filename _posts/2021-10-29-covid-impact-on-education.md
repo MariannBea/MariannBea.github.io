@@ -2,6 +2,8 @@
 title: "Exploring EdTech Usage During A Pandemic"
 date: 2021-10-29 13:32:20 +0300
 excerpt_separator: "<!--more-->"
+classes: 
+  - wide
 categories:
   - Data Analysis
 tags:
