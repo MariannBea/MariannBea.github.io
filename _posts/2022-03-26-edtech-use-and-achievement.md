@@ -7,6 +7,7 @@ categories:
 tags:
   - Python
   - Analysis
+classes: wide
 ---
 This is part of a series about analyzing how the use of Online Learning Platforms was affected by Covid.
 You can read the first post [here](https://mariannbea.github.io/covid-impact-on-education/).
