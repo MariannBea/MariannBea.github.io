@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Mariann Beagrie"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I have taught internationally for 13 years. I am currently working towards a degree in computer science with data analytics. I am returning to the United States in April."
+  bio    : "I have taught internationally for 13 years. I am currently working towards a degree in computer science with data analytics."
   links:
     - #label: "Website"
       #icon: "fas fa-fw fa-link"
