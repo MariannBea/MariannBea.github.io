@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 ---
-This is a blog I started to track my progress as I continue to improve my data analysis skills. 
+This is a blog I started to track my progress as I continue to improve my programming and data analysis skills.
 
 My learning from personal projects is shared through the blog. However, due to collusion-related university restrictions, I cannot post assignments or assessments from my courses online. Below is a summary of the main concepts I have learned as I have worked towards my Master's Degree.
 
@@ -22,7 +22,7 @@ This was one of my favorite courses in this program. I learned about current iss
 
 ##### Software Engineering
 
-In this course, I learned about the software development process and how to plan and design more extensive programs. This included learning how to use a variety of UML diagrams to support the development of well-designed programs. I demonstrated my understanding of these concepts through an exam.
+In this course, I learned about the software development process and how to plan and design more extensive programs. I learned about the software development process and how to create and use UML models. In addition, I learned strategies for ensuring that software designed would meet the needs of all stackholder. This including capturing and analyzing requirements and how this process could be supported through use case and interaction modelling. In addition, I learned about common software design patterns and how to test and refactor software. I demonstrated my understanding of these concepts through an exam.
 
 ##### Big Data Analysis
 
@@ -36,11 +36,11 @@ For the second project, I analyzed people's decisions and how this affected the 
 
 ##### Computer Architecture and Operating Systems
 
-In this course, I learned how the components of a computer work together. I used what I learned in this course to inform my decision making when I bought a new computer, and my husband needed a new phone. I demonstrated what I learned through an exam.
+This was one of the most immediately practical courses I took. Shortly after completing this course, I was able to apply what I learned when buying a new computer and advising my husband on which phone best met his needs. In this course, I learned about how the various componenets of a computer, including the CPU, bus, RAM, ROM and secondary memory work individually and together. I learned about the different ways each of these components can be designed, ways of managing their resources and how to design systems to prevent the loss of valuable data.  In addition, I learned about how choices must be made between speed, complexity, cost, energy-use and heat-production when designing computers to meet the needs of specific users. I also learned about how the basics of computer networking and the architecture used in it. 
 
 ##### Computer and Mobile Networks
 
-In this course, I learned about how networks work. I also learned about how people can use networks for nefarious purposes and ways to increase data security over networks. I demonstrated what I learned through creating Server and Client programs using Java. The programs simulated the stop-and-wait and Go-Back-N protocols.
+In this course, I learned about how networks work. I learned about different types of networks and common protocols for transmitting data over them. also learned about how people can use networks for nefarious purposes and ways to increase data security over networks. I demonstrated what I learned through creating Server and Client programs using Java. The programs simulated the stop-and-wait and Go-Back-N protocols.
 
 ##### Research Methods
 
